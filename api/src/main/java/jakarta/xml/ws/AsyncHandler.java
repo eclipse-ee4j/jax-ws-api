@@ -17,6 +17,7 @@ package jakarta.xml.ws;
  * @param <T> The type of the message or payload
  *  @since 1.6, JAX-WS 2.0
 **/
+@FunctionalInterface
 public interface AsyncHandler<T> {
 
     /** Called when the response to an asynchronous operation is available.
